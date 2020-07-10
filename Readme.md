@@ -10,9 +10,14 @@ _[ctbignum](https://github.com/niekbouman/ctbignum)_
 
 [Установка gmpcxx](https://stackoverflow.com/a/51231918)
 
+```
+If you are building gmp from source, you need to add the --enable-cxx flag to the configure command.
+```
+
 [Прописать библиотеки после make install](https://stackoverflow.com/a/7226035)
 
-## ctbignum
+If it is simply run `sudo ldconfig` (or `ldconfig` as root) and try again.
 
+## ctbignum
 
 
